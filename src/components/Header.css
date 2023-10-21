@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    grid-area: h;
+    background-color:#1b0b29;
+    
+  }
+  .header h1 {
+    flex: 2;
+    color: white;
+    cursor: pointer;
+    justify-self: center;
+    text-align: center;
+    font-family:cursive;
+    font-style: italic;
+  }
+  .header img {
+    flex: 1;
+    justify-self:left;
+    align-self: flex-start;
+    position: absolute;
+    width: 60px;
+    cursor:pointer;
+    padding: 10px;
+  }

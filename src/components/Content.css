@@ -1,0 +1,73 @@
+.content {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+  }
+  
+  .content {
+    grid-area: c;
+
+  }
+  .content-image{
+    width: 100%;
+  }
+  .content .content-image img {
+    max-width: 100%;
+    object-fit: cover;
+    background-position: center;
+    max-height:30vh;
+    opacity: 1;
+  }
+
+  .content div {
+    margin-top: 1%;
+    display: flex;
+    align-items: flex-start;
+    
+  }
+ 
+  .content div .info {
+    color:#0a0909;
+    font-family: sans-serif;
+    display: inline-block;
+    
+  }
+  .cimg {
+    width: 150px;
+    height:150px ;
+    background-image: url(https://yt3.ggpht.com/a/AGF-l7-1N3dQfnMcMngfdlSiK0d7K7fi2BWgYpIsxw=s900-c-k-c0xffffffff-no-rj-mo);
+    background-size: cover;
+    background-position: center;
+  }
+  .dmitry {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+  }
+  .posts textarea{
+    resize: none;
+    width: 80vw;
+    height: 15vh;
+    background-color: darkgrey;
+    border-color: none;
+  }
+.posts button {
+  margin-top: 1%;
+  justify-self: end;
+  background-color: #1b0b29;
+  border-color: #1b0b29 ;
+  width: 80px;
+  height: 30px;
+  border-radius: 5%;
+  cursor:pointer;
+}
+.posts button:hover {
+  background-color: white;
+  transition: background-color 0.1s ease-out 0.3s;
+
+}

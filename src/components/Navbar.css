@@ -1,0 +1,25 @@
+.nav {
+    display: grid;
+    grid-area: n;
+    background-color: #1b0b29;
+
+  }
+  .nav .navi{
+    justify-content: center;
+    padding: 20px;
+  }
+  .navi a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: color 0.1ms ease-in-out 0.1s;
+  }
+  .navi a:hover {
+    color: darkgrey;
+    
+  }
+  .icons {
+    justify-self: start;
+    color: aliceblue;
+    padding-left: 20px;
+  }

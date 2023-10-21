@@ -1,0 +1,45 @@
+@media (width>500px){
+  .app-wrapper {
+    width: 100%;
+      display: grid;
+      height: 100vh;
+      grid-template-areas:
+      "h h"
+      "n c";
+      grid-template-columns: 2fr 12fr;
+      grid-template-rows: 1fr 9fr  ;
+      
+  }
+}
+@media (width<=500px){
+  .app-wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+    "h"
+    "n"
+    "c";
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 60vh 30vh;
+  }.nav{
+    display: flex;
+  }
+  .nav .navi {
+    justify-content: space-between;
+  }
+  .content .content-img img {
+    width: 50%;
+  }
+  .open .nav {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+ 
+}
+
+ 
+
+
+
+
